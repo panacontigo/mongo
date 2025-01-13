@@ -1,0 +1,47 @@
+@media print {
+    #Header, #Footer { display: none !important; }
+}
+
+#Header, #Footer { display: none !important; }
+
+table.result {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table, td, th {
+    border: 1px solid black;
+    }
+
+table.result tr:hover {background-color:#fadcb3;}
+
+table.para_imprimir {
+    border-collapse: collapse;
+    width: 1000px;
+    text-align: center;
+}
+
+table.para_imprimir tr:hover {background-color:#fadcb3;}
+
+.banner {
+    width: 300px; /* Ancho deseado */
+    height: 150px; /* Alto deseado */
+    overflow: hidden; /* Oculta el exceso de la imagen */
+    position: relative; /* Posiciona el contenedor */
+}
+
+.banner img {
+    position: absolute; /* Posiciona la imagen dentro del contenedor */
+    top: -50px; /* Ajusta la posición verticalmente */
+    left: -50px; /* Ajusta la posición horizontalmente */
+    width: auto; /* Mantiene el aspecto original */
+    height: auto; /* Mantiene el aspecto original */
+    min-width: 100%; /* Asegura que cubra el contenedor */
+    min-height: 100%; /* Asegura que cubra el contenedor */
+}
+
+#contenedorvistaprevia{
+    
+     padding-top:10px;
+    
+}
